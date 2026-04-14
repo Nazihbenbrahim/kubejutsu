@@ -1,15 +1,54 @@
 # ☸️ kubejutsu
 
-Hands-on Kubernetes labs focused on real practice: manifests, debugging, networking, storage, security, Helm, scheduling, observability, and production-style troubleshooting.
+<p align="center">
+  <img src="./assets/kubejutsu-banner.png" alt="kubejutsu banner" width="100%" />
+</p>
 
-This repository is organized lab by lab. Each lab lives in its own folder and usually contains:
+<p align="center">
+  <strong>Train like a shinobi. Build like an engineer.</strong>
+</p>
+
+<p align="center">
+  Hands-on Kubernetes labs with a disciplined, mission-based workflow: manifests, debugging, networking, storage, security, Helm, scheduling, observability, and real-world troubleshooting.
+</p>
+
+<p align="center">
+  <img alt="Kubernetes" src="https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white" />
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Nazihbenbrahim/kubejutsu" />
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Nazihbenbrahim/kubejutsu" />
+  <img alt="Maintained" src="https://img.shields.io/badge/status-active-success" />
+</p>
+
+---
+
+## Why this repository exists
+
+**kubejutsu** is a public Kubernetes lab repository built to document real practice, not just collect YAML.
+
+The core idea is simple:
+- write manifests by hand
+- solve the task yourself first
+- verify everything with `kubectl`
+- keep the exact commands you used
+- document what failed, what changed, and what you learned
+- keep each lab in its own folder
+
+This gives the repository two strengths:
+- it stays useful as a public portfolio
+- it stays useful as a real training archive
+
+> The visual identity can be shinobi-inspired, but the technical content stays practical, clean, and production-minded.
+
+## Mission format
+
+Each lab usually contains:
 
 - `task.md`
 - `solution.yaml`
 - `commands.sh`
 - `notes.md`
 
-## Philosophy
+## Workflow philosophy
 
 - Write manifests by hand
 - Try solving the lab before looking at any solution
@@ -26,6 +65,16 @@ Examples:
 - `feat(deployments): lab-014 blue-green`
 - `fix(networkpolicy): correct ingress rule`
 - `docs(storage): improve notes for pvc binding`
+
+## Visual identity
+
+For the README banner, use an **original shinobi-inspired DevOps image**, not official Naruto screenshots, logos, or copied character art.
+
+Recommended image path:
+
+```text
+assets/kubejutsu-banner.png
+```
 
 ## Repository structure
 
@@ -194,16 +243,16 @@ Folder: [10-scheduling](./10-scheduling/)
 - [Lab 076 — CKA Challenge 02 — Drain + cordon + uncordon _(Killercoda CKA)_](./10-scheduling/lab-076-cka-challenge-02/)
 - [Lab 077 — CKA Challenge 16 — Node troubleshooting _(Killercoda CKA)_](./10-scheduling/lab-077-cka-challenge-16/)
 
-### 11 — Jobs + CronJobs
+### 10 — Jobs + CronJobs
 Folder: [12-jobs-cronjobs](./12-jobs-cronjobs/)
 
 - [Lab 078 — Job — parallelism:3 completions:6, watch concurrent pods _(Killercoda omkar)_](./12-jobs-cronjobs/lab-078-job-parallelism/)
 - [Lab 079 — CronJob basics — schedule + verify execution _(Killercoda omkar)_](./12-jobs-cronjobs/lab-079-cronjob-basics/)
 - [Lab 080 — CronJob data pipeline — retry + deadline _(Killercoda omkar)_](./12-jobs-cronjobs/lab-080-cronjob-data-pipeline/)
-- [Lab 081 — KodeKloud Engineer — Countdown Job completions + backoffLimit _(KodeKloud Engineer)_](./12-jobs-cronjobs/lab-081-countdown-job/)
-- [Lab 082 — KodeKloud Engineer — Create CronJobs with exact schedule _(KodeKloud Engineer)_](./12-jobs-cronjobs/lab-082-create-cronjobs/)
+- [Lab 081 — Countdown Job completions + backoffLimit _(KodeKloud Engineer)_](./12-jobs-cronjobs/lab-081-countdown-job/)
+- [Lab 082 — Create CronJobs with exact schedule _(KodeKloud Engineer)_](./12-jobs-cronjobs/lab-082-create-cronjobs/)
 
-### 12 — Observability
+### 11 — Observability
 Folder: [11-observability](./11-observability/)
 
 - [Lab 083 — Deploy kube-prometheus-stack + explore _(kind cluster)_](./11-observability/lab-083-kube-prometheus-stack/)
@@ -213,7 +262,7 @@ Folder: [11-observability](./11-observability/)
 - [Lab 087 — Loki + Promtail — LogQL for ERROR logs last 1h _(kind cluster)_](./11-observability/lab-087-loki-promtail/)
 - [Lab 088 — SadServers — Prometheus scrape debug _(SadServers)_](./11-observability/lab-088-sadservers-prometheus-scrape-debug/)
 
-### 13 — Debugging
+### 12 — Debugging
 Folder: [13-debugging](./13-debugging/)
 
 - [Lab 089 — CrashLoopBackOff — systematic diagnosis _(Killercoda)_](./13-debugging/lab-089-crashloopbackoff/)
@@ -227,7 +276,7 @@ Folder: [13-debugging](./13-debugging/)
 - [Lab 097 — Chaos 2 — CrashLoopBackOff: fix quickly _(kind cluster)_](./13-debugging/lab-097-chaos-crashloopbackoff/)
 - [Lab 098 — Chaos 3 — NetworkPolicy suddenly blocks app _(kind cluster)_](./13-debugging/lab-098-chaos-networkpolicy/)
 
-### 14 — Real-World Apps
+### 13 — Real-World Apps
 Folder: [14-realworld-apps](./14-realworld-apps/)
 
 - [Lab 099 — Nginx Web Server — Pod + NodePort + curl verify _(KodeKloud Engineer)_](./14-realworld-apps/lab-099-nginx-web-server/)
@@ -243,7 +292,7 @@ Folder: [14-realworld-apps](./14-realworld-apps/)
 - [Lab 109 — Troubleshoot Nginx+PhpFpm broken _(KodeKloud Engineer)_](./14-realworld-apps/lab-109-troubleshoot-nginx-phpfpm/)
 - [Lab 110 — Fix PhpFpm broken config _(KodeKloud Engineer)_](./14-realworld-apps/lab-110-fix-phpfpm-config/)
 
-### 15 — CKA Sprint
+### 14 — CKA Sprint
 Folder: [15-cka-sprint](./15-cka-sprint/)
 
 - [Lab 111 — CKA Challenge 04 — ETCD Backup + Restore _(Killercoda CKA)_](./15-cka-sprint/lab-111-cka-challenge-04/)
@@ -313,3 +362,19 @@ lab-xxx-name/
 ## Roadmap
 
 See [ROADMAP.md](./ROADMAP.md)
+
+---
+
+## Strong AI banner prompt
+
+Use this prompt in Gemini, ChatGPT image generation, or another image tool:
+
+```text
+Wide GitHub README banner for a project called "kubejutsu", original shinobi-inspired DevOps artwork, dark blue and orange palette, subtle neon highlights, stylized ninja silhouette on a rooftop, swirling energy shaped like Kubernetes nodes, pods, YAML scrolls, cluster network lines, cloud-native symbols, cinematic lighting, modern tech aesthetic, clean composition, high contrast, premium branding, no copyrighted anime characters, no official Naruto logos, no text baked into the image, ultra-detailed, banner ratio
+```
+
+Optional alternate version:
+
+```text
+Original anime-inspired but non-copyrighted DevOps banner, shinobi engineer theme, Kubernetes cluster visualized as glowing chakra network, scrolls turning into YAML manifests, pods and services floating like symbols, dark cinematic sky, orange-blue energy trails, sleek GitHub README banner, no existing anime characters, no franchise logos, no watermarks, polished, high-end digital illustration
+```
