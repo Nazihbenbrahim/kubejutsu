@@ -364,17 +364,3 @@ lab-xxx-name/
 See [ROADMAP.md](./ROADMAP.md)
 
 ---
-
-## Strong AI banner prompt
-
-Use this prompt in Gemini, ChatGPT image generation, or another image tool:
-
-```text
-Wide GitHub README banner for a project called "kubejutsu", original shinobi-inspired DevOps artwork, dark blue and orange palette, subtle neon highlights, stylized ninja silhouette on a rooftop, swirling energy shaped like Kubernetes nodes, pods, YAML scrolls, cluster network lines, cloud-native symbols, cinematic lighting, modern tech aesthetic, clean composition, high contrast, premium branding, no copyrighted anime characters, no official Naruto logos, no text baked into the image, ultra-detailed, banner ratio
-```
-
-Optional alternate version:
-
-```text
-Original anime-inspired but non-copyrighted DevOps banner, shinobi engineer theme, Kubernetes cluster visualized as glowing chakra network, scrolls turning into YAML manifests, pods and services floating like symbols, dark cinematic sky, orange-blue energy trails, sleek GitHub README banner, no existing anime characters, no franchise logos, no watermarks, polished, high-end digital illustration
-```
