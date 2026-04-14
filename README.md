@@ -66,38 +66,6 @@ Examples:
 - `fix(networkpolicy): correct ingress rule`
 - `docs(storage): improve notes for pvc binding`
 
-## Visual identity
-
-For the README banner, use an **original shinobi-inspired DevOps image**, not official Naruto screenshots, logos, or copied character art.
-
-Recommended image path:
-
-```text
-assets/kubejutsu-banner.png
-```
-
-## Repository structure
-
-```text
-kubejutsu/
-├── README.md
-├── ROADMAP.md
-├── 01-pods/
-├── 02-deployments/
-├── 03-configmaps-secrets/
-├── 04-storage/
-├── 05-services-ingress/
-├── 06-networkpolicy/
-├── 07-rbac-security/
-├── 08-hpa-keda-autoscaling/
-├── 09-helm/
-├── 10-scheduling/
-├── 11-observability/
-├── 12-jobs-cronjobs/
-├── 13-debugging/
-├── 14-realworld-apps/
-└── 15-cka-sprint/
-```
 
 ## Topic index
 
@@ -336,18 +304,6 @@ lab-xxx-name/
 - [KodeKloud Playground](https://kodekloud.com/public-playgrounds)
 - [SadServers Kubernetes](https://sadservers.com/tag/kubernetes)
 
-## Source repositories and platforms
-
-### KodeKloud / GitHub
-- [joseeden/KodeKloud_Engineer_Labs](https://github.com/joseeden/KodeKloud_Engineer_Labs)
-- [MiqdadProjects/kodekloud-kubernetes-solutions](https://github.com/MiqdadProjects/kodekloud-kubernetes-solutions)
-- [MederD/Kodekloud-Engineer-Tasks](https://github.com/MederD/Kodekloud-Engineer-Tasks)
-
-### Killercoda
-- [omkar-shelke25](https://killercoda.com/omkar-shelke25)
-- [killer-shell-cka](https://killercoda.com/killer-shell-cka)
-- [cka-mock-practice](https://killercoda.com/cka-mock-practice)
-- [Kubernetes Playground](https://killercoda.com/playgrounds/scenario/kubernetes)
 
 ### Other
 - [SadServers Kubernetes](https://sadservers.com/tag/kubernetes)
