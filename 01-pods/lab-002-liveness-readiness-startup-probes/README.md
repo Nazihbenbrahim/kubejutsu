@@ -3,8 +3,8 @@
 **Level:** Intermediate  
 **Duration:** 20 minutes  
 **Mode:** Interactive  
-**Source:** KillerCoda
-**URL:** killercoda.com/omkar-shelke25/scenario/readiness-liveness
+**Source:** KillerCoda  
+**Lab URL:** https://killercoda.com/omkar-shelke25/scenario/readiness-liveness
 
 
 ## Short introduction
