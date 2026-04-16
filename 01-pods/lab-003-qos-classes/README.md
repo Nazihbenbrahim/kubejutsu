@@ -3,8 +3,8 @@
 **Level:** Beginner  
 **Duration:** 20–30 minutes  
 **Mode:** Interactive  
-**Source:** KodeKloud  
-**Lab URL:** Add the original exercise URL here
+**Source:** Killercoda  
+**Lab URL:** https://killercoda.com/omkar-shelke25/scenario/qos-scenario
 
 Learn how to create a Deployment with explicit resource requests and limits, verify that the resulting Pods run with the expected QoS class, and build a small helper script to inspect Pod QoS information quickly.
 
