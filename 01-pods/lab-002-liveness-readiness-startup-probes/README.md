@@ -3,7 +3,9 @@
 **Level:** Intermediate  
 **Duration:** 20 minutes  
 **Mode:** Interactive  
-**Source:** KodeKloud
+**Source:** KillerCoda
+**URL:** killercoda.com/omkar-shelke25/scenario/readiness-liveness
+
 
 ## Short introduction
 
